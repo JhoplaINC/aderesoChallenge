@@ -1,0 +1,558 @@
+/*=======================*/
+/*=== DOCUMENT STYLE ===*/
+/*=====================*/
+
+html{scroll-behavior: smooth;}
+
+body{
+    overflow-x: hidden!important;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*===========================*/
+/*=== FIN DOCUMENT STYLE ===*/
+/*=========================*/
+
+
+
+/*=====================*/
+/*=== GLOBAL STYLE ===*/
+/*===================*/
+
+.navbar{
+    min-width: 100%!important;
+    max-width: 100%!important;
+}
+
+.navbar h1{
+    display: none;
+}
+
+.smallDevice{
+    display: none;
+}
+
+.small-twit-section{
+    display:none;
+}
+
+.btn-principal{
+    background-color: rgb(231, 77, 136);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 2%;
+    box-shadow: 0 1px 2px rgb(148, 0, 57);
+    transition: 0.3s;
+}
+
+.btn-principal:hover{
+    background-color: rgb(255, 167, 201);
+    color: rgb(148, 0, 57);
+    border-radius: 30px;
+    padding: 2%;
+    border: 1px solid rgb(231, 77, 136);
+    box-shadow: 0 2px 4px rgb(231, 77, 136);
+}
+
+.smallTxt{
+    text-align: justify!important;
+    color:rgb(150, 150, 150);
+    font-size: 20px;
+}
+
+.percent-background{
+    background:linear-gradient(to bottom, rgb(140, 0, 255, 0.7) -15%,
+                                          rgb(180, 0, 200, 0.7) 20%,
+                                          rgb(210, 0, 175, 0.8) 35%,
+                                          rgb(255, 0, 140, 0.9) 55%);
+}
+
+.principal-text{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+/*=========================*/
+/*=== FIN GLOBAL STYLE ===*/
+/*=======================*/
+
+
+
+/*============================*/
+/*=== BARRA DE NAVEGACIÓN ===*/
+/*==========================*/
+
+.navbar-toggler{
+    background-color: rgb(100, 0, 255);
+}
+
+#navbarNav li:hover{
+    cursor: pointer;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover, .active{
+    color: rgb(223, 144, 196)!important;
+}
+
+
+.navbar{
+    background: linear-gradient(to bottom, rgb(140, 0, 255), rgb(180, 0, 200), rgb(210, 0, 175), rgb(255, 0, 140));
+    border-bottom: 2px solid rgb(131, 49, 255, 0.2);
+    font-size: 20px;
+}
+
+/*================================*/
+/*=== FIN BARRA DE NAVEGACIÓN ===*/
+/*==============================*/
+
+
+
+/*=========================*/
+/*=== SECCIÓN FEATURES ===*/
+/*=======================*/
+
+.feature{
+    margin: 2% 4% 5% 4%;
+    padding: 2%;
+    background: linear-gradient(to bottom, rgb(140, 0, 255), rgb(180, 0, 200), rgb(210, 0, 175), rgb(255, 0, 140));
+    border-radius: 10px;
+}
+
+.logoSec{
+    font-size: 35px;
+    color: rgb(140, 0, 255);
+}
+
+.logoSec i{
+    border-radius: 35px;
+    padding: 3%;
+    background-color: rgb(255, 255, 255);
+}
+
+.textSec{
+    font-size: 20px;
+}
+
+.fstText{
+    font-weight: bold;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.scndText{
+    color: rgb(255, 255, 255);
+}
+
+.learnSec a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/**********************************************/
+/********** INTERACTIVE PROTOTYPES ***********/
+
+ol li::before{
+    color: rgb(124,252,0);
+    font-size:35px;
+    font-family: icomoon;
+    content: "\e5ca";
+}
+
+.comentario{
+    box-shadow: 2px 5px 15px 2px rgb(0, 0, 0, 0.2);
+    padding:2%;
+}
+
+.comentario img{
+    border-radius: 50px;
+}
+
+/*****************************************/
+/****************************************/
+
+        /*===========================*/
+        /* F E A T U R E  H O V E R */
+        /*-------------------------*/
+
+.feature:hover{
+    background:linear-gradient(to bottom, rgb(140, 0, 255) -15%,
+                                          rgb(180, 0, 200) 20%,
+                                          rgb(210, 0, 175) 35%,
+                                          rgb(255, 0, 140) 55%);
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    transform: translateY(-15px);
+}
+
+.feature:hover .scndText{
+    color: rgb(255, 255, 255);
+}
+
+.feature:hover .learnSec a{
+    color: rgb(110, 0, 255);
+    transition: 0.5s;
+}
+
+.feature:hover .logoSec{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.feature:hover .logoSec i{
+    background-color: rgb(140, 0, 255);
+    transition: 0.5s;
+}
+
+.feature, .scndText, .logoSec, .logoSec i, .learnSec a{
+    transition: 1s;
+}
+
+        /*===========================*/
+        /* F E A T U R E  H O V E R */
+        /*-------------------------*/
+
+/*=============================*/
+/*=== FIN SECCIÓN FEATURES ===*/
+/*===========================*/
+
+
+
+/*========================*/
+/*=== SECCIÓN FEATURE ===*/
+/*======================*/
+
+#feature{
+    margin: 5%;
+    padding: 3% 10% 10% 5%;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#feature .header{
+    width: 65%;
+    padding: 5% 5% 10% 5%;
+    border-radius: 25px;
+}
+
+#feature .header h1{
+    font-size: 80px!important;
+    width: 100%;
+}
+
+#feature .main{
+    background:linear-gradient(to bottom, rgb(132, 0, 255, 0.9) 10%,
+                                          rgb(101, 35, 187, 0.95) 55%,
+                                          rgb(20, 50, 200) 100%);
+    margin: -10% 5% 5% 15%;
+    padding: 2% 10% 5% 10%;
+    width: 85%;
+    border-radius: 35px;
+}
+
+#feature .main header{
+    margin-bottom: 7%;
+}
+
+#feature-info{
+    font-size: 30px;
+}
+
+/*============================*/
+/*=== FIN SECCIÓN FEATURE ===*/
+/*==========================*/
+
+
+
+/*======================*/
+/*=== SECCIÓN ABOUT ===*/
+/*====================*/
+
+.us-img{
+    text-align: center;
+}
+
+.us-img img{  
+    width:500px;
+    height:400px;
+}
+
+/*===========================*/
+/*=== FIN SECCIÓN ABOUT ===*/
+/*========================*/
+
+
+
+/******** SECCIÓN TESTIMONIALS ***********/
+/****************************************/
+
+.swiper-container {
+	width: 100%;
+    height: 450px;
+}
+
+.swiper-slide {
+	font-size: 25px;
+	background-color: transparent;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    padding: 7% 7% 10% 10%;
+}
+
+.swiper-slide{
+	height: 100%;
+	overflow: auto;
+	background-color: transparent;
+    text-align: center;
+}
+
+.personF{
+    width:110px;
+    border-radius: 50px;
+}
+
+/*****************************************/
+/****************************************/
+
+
+
+/********** SECCIÓN CONTACTO *************/
+/****************************************/
+
+#formContact{
+    font-size: 25px;
+}
+
+.form-control:focus{
+    border-color: rgb(231, 77, 136)!important;
+    box-shadow: 0 0 4px rgb(231, 77, 136)!important;
+}
+
+/****************************************/
+/****************************************/
+
+
+
+/*========================*/
+/*=== SECCIÓN TWITTER ===*/
+/*======================*/
+
+.big-tweet{
+    width: 250px;
+    height: 480px;
+    padding: 1% 1% 2% 1%;
+    margin: 0;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    bottom: 1%;
+    right: 0;
+}
+
+/*============================*/
+/*=== FIN SECCIÓN TWITTER ===*/
+/*==========================*/
+
+
+
+/*=======================*/
+/*=== SECCIÓN FOOTER ===*/
+/*=====================*/
+
+footer a u:hover{
+    color: rgb(124,252,0);
+    transition: 0.3s;
+}
+
+footer .fa{
+    font-size: 35px;
+    background-color: white;
+    color:rgb(210, 0, 175, 0.8);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer .fa-facebook{
+    padding-left:15px!important;
+    padding-right:15px!important;
+}
+
+footer .fa:hover{
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+}
+
+footer .fa-twitter:hover{
+    background-color: rgb(85, 172, 238);
+}
+
+footer .fa-facebook:hover{
+    background-color: rgb(59, 89, 152);
+}
+footer .fa-linkedin:hover{
+    background-color: rgb(0, 123, 181);
+}
+
+/*===========================*/
+/*=== FIN SECCIÓN FOOTER ===*/
+/*=========================*/
+
+
+
+/************* GLOBAL QUERYS *************/
+/****************************************/
+
+@media only screen and (max-width: 992px){
+    #adereso{
+        display: none;
+    }
+    .bigDevice{
+        display: none;
+    }
+    .smallDevice{
+        display: block;
+    }
+    .left{
+        margin-top:6%;
+        padding-top: 5%;
+    }
+    .smallDevice aside{
+        text-align: center;
+    }
+    .navbar h1{
+        display: block;
+        height: 5px;
+    }
+    .small-twit-section{
+        display: block!important;
+    }
+    .big-twit-section{
+        display:none!important;
+    }
+    #feature .header h1{
+        font-size: 60px!important;
+    }
+    #feature .main h1{
+        font-size: 40px!important;
+    }
+    #feature .main #feature-info{
+        font-size: 20px!important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        margin-bottom: 20%;
+    }
+    .left{
+        margin-top:-12%;
+        padding-top:20%;
+    }
+    .navbar h1{
+        display: block;
+        height: 5px;
+    }
+    #about header h1{
+        margin-top:0!important;
+    }
+    .us-img img{
+        width:300px!important;
+        height: 300px;
+        margin-top: -25%!important;
+    }
+    #produccion aside header h1{
+        font-size:50px;
+    }
+    #produccion aside .smallTxt{
+        margin-top: -10%!important;
+        margin-bottom: 10%;
+    }
+    #about aside header h1{
+        font-size: 50px;
+    }
+    #about aside .principal-text{
+        font-size: 20px;
+    }
+    .secTitle{
+        font-size: 35px!important;
+    }
+    .feature{
+        padding:5%!important;
+    }
+    .logoSec{
+        font-size: 20px!important;
+        margin-bottom: 5%!important;
+    }
+    .textSec, .learnSec a{
+        font-size: 15px!important;
+    }
+    .inText, .aboutTxtAb{
+        font-size: 20px!important;
+        text-align: justify;
+    }
+    .textTestimonial{
+        font-size: 20px!important;
+    }
+    .personF{
+        width:90px!important;
+    }
+    #formContact{
+        font-size: 17px!important;
+    }
+    footer{
+        padding:10%!important;
+    }
+    #feature .header{
+        margin-top: 10%!important;
+    }
+    #feature .header h1{
+        font-size: 35px!important;
+    }
+    #feature .main{
+        margin: -30% 5% 5% 15%;
+    }
+    #feature .main #feature-info{
+        font-size: 20px!important;
+    }
+}
+
+@media only screen and (max-width: 675px){
+    #feature{
+        margin: 5% 0 0 0!important;
+        padding: 1% 1% 5% 1%!important;
+    }
+    #feature .header, #feature .main{
+        width: 100%!important;
+        margin: 0;
+    }
+    #feature .header{
+        margin-top: 20%!important;
+    }
+    #feature .header h1{
+        font-size: 30px!important;
+    }
+    #feature .main{
+        margin-top: -10%!important;
+        text-align: left!important;
+    }
+    #feature .main h1{
+        font-size: 30px;
+    }
+    #feature .main #feature-info{
+        font-size: 19px!important;
+    }
+    footer .fa{
+        font-size: 25px;
+    }
+}
+
+/****************************************/
+/****************************************/
